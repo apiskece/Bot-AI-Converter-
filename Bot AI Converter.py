@@ -60,7 +60,7 @@ def start(update: Update, context: CallbackContext):
 
 def main():
     # Ganti 'YOUR_TOKEN' dengan token bot Anda
-    updater = Updater("YOUR_TOKEN", use_context=True)
+    updater = Updater("8063782699:AAHe6IE1f2LA4SYL7rBNwB6UpabDWqP_hDA", use_context=True)
     
     dp = updater.dispatcher
     dp.add_handler(CommandHandler("start", start))
