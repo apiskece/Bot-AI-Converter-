@@ -1,3 +1,5 @@
+# Copyright Apis 2025
+
 import pandas as pd
 from telegram import Update, InputFile
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
